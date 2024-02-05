@@ -1,0 +1,12 @@
+---
+configs:
+  params:
+    server.rootpath: /argo
+#    server.basehref: /argo
+server:
+  ingress:
+    paths:
+      - /argo
+    enabled: true
+  extraArgs:
+    - '--insecure'
